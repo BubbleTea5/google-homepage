@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3.9em;  
+}
+
+a { 
+    text-decoration: none;
+    color: rgba(70, 70, 70);
+    font-size: 13px;
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.75em;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.about, .store, .gmail, .images {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0em;
+}
+
+.appslogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(/google-test/images/icons.png);
+    background-position: -137px 26px;
+    opacity: 55%;
+    margin: 0px 0.5em;
+}
+
+.signin {
+    border: 1px solid #4265f4;
+    border-radius: 2px;
+    background-image: linear-gradient(0deg, #4387fd, #548beb);
+    color: white;
+    font-size: 0.8em;
+    font-weight: 550;
+    padding: 0.6em 0.9em;
+    margin-right: 2.2em;
+    margin-left: 1em;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.2em;
+    width: 272px;
+    height: 92px; 
+}
+
+.searchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8em;
+    width: 480px;
+    height: 43px;
+    border: 1px solid rgba(220, 220, 220);
+    border-radius: 21.5px;
+}
+
+input {
+    display: block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+    width: 390px;
+    border: 0px;
+    background-color: white;
+}
+
+.searchbar::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    background-image: url(/google-test/images/icons.png);
+    background-position: -247px -32px;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    opacity: 30%;
+}
+
+.searchbuttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    justify-content: center;
+    border:1px solid transparent;
+}
+
+.googlesearch, .luckybutton {
+    font-size: 14px;
+    background-color: #f8f9fa;
+    color: rgb(61, 61, 61);
+    padding: 0.8em 1.2em;
+    margin: 33px 0.45em 0px;
+    border-radius: 4px;
+    border:1px solid transparent;
+}
+
+.language {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.langsent {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#frenchlink {
+    color: #000097;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0px;
+    background-color: #eeeeee
+}
+
+#canada {
+    font-size: 14px;
+    color: rgba(100, 100, 100);
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgba(218, 218, 218);
+    padding: 12px;
+}
+
+#canadatext {
+    padding-left: 20px;
+}
+
+.footlink a{
+    font-size: 14px;
+    padding: 0px 0.9em;
+    color: rgba(100, 100, 100);
+}
+
+.botrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.botleft, .botright {
+    display: flex;
+    flex-direction: row;
+}
+
+.botleft {
+    margin-left: 0.2em;
+}
+
+.botright {
+    margin-right: 0.2em;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.appslogo:hover {
+    opacity: 100%;
+}
+
+.signin:hover {
+    box-shadow: 0px 1px 0px 0px rgb(194, 191, 191);
+    cursor: default;
+}
+
+.searchbar:hover {
+    box-shadow: 0px 0px 2px 1px rgb(224, 223, 223);
+}
+
+.googlesearch:hover, .luckybutton:hover {
+    cursor: pointer;
+    border: 1px solid rgb(216, 215, 215);
+}
