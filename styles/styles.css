@@ -38,7 +38,7 @@ a {
 .appslogo {
     width: 20px;
     height: 20px;
-    background-image: url(/google-test/images/icons.png);
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-position: -137px 26px;
     opacity: 55%;
     margin: 0px 0.5em;
@@ -92,7 +92,7 @@ input {
     position: relative;
     top: 8px;
     left: 10px;
-    background-image: url(/google-test/images/icons.png);
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
     background-position: -247px -32px;
     width: 25px;
     height: 25px;
