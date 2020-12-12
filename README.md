@@ -1,7 +1,7 @@
 # google-homepage
 Recreating Google's Homepage
 
-Took ~10 hours total, biggest difficulties were figuring out were sizing and deciding which position to use and when. 
+Took ~10 hours total, biggest difficulties were figuring out were sizing and deciding which units/positions to use and when. 
 
 Problems:
 
